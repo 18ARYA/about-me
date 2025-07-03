@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #212121; text-align: center; }
+
+        .container { max-width: 1080px; margin: auto; background: grey; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        nav a { margin: 0 15px; text-decoration: none; color: #10e116; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👋 Hey there, I’m Devansh Arya</h1>
+        <nav>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('news') }}">News</a>
+            <a href="{{ url_for('form_page') }}">Submit Data</a>
+        </nav>
+        <h2>Web Developer • Car Enthusiast • Creative Explorer</h2>
+        <p><i>Welcome to my digital garage.<br> A space where sleek design meets high performance.<br> Whether I’m building dynamic websites or diving deep into automotive culture, I’m driven by passion and precision.<br> Explore my world of code, creativity, and everything fast.<br> Let’s shift into high gear 🚀<br>Here are some crazy pictures you would like :</i></p>
+        <img src="https://i.pinimg.com/736x/76/97/e6/7697e68d97531ebb8d0762d07ae1f3d1.jpg" width="300px">
+        <img src="https://i.pinimg.com/736x/1c/aa/f1/1caaf1f9ef6caf5b90231880e43a3668.jpg" width="300px">
+        <img src="https://i.pinimg.com/736x/89/e5/3f/89e53f74370b6feb1ea351a5b02e9d9d.jpg" width="300px">
+        <img src="https://i.pinimg.com/736x/f8/b9/f9/f8b9f999b09869a2bdda7e87f8eef53f.jpg" width="300px">
+        <img src="https://i.pinimg.com/736x/7c/5f/e7/7c5fe71e016dfd548d038c9515066895.jpg" width="300px">
+        <img src="https://i.pinimg.com/736x/34/dd/fb/34ddfb457e891a5ef71ccf79f0dd1781.jpg" width="300px">
+        <img src="https://i.pinimg.com/736x/2e/85/60/2e85608c0d779142c417bcdeb09181ee.jpg" width="300px">
+        <img src="https://i.pinimg.com/736x/a4/d7/29/a4d7298fb6a515dfac982fabdd070acf.jpg" width="300px">
+        <img src="https://i.pinimg.com/736x/e1/63/da/e163dafc92cad6832e6dc676e004d5ec.jpg" width="300px">
+    </div>
+</body>
+</html>
